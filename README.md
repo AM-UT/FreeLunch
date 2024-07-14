@@ -8,7 +8,7 @@ FreeU: Free Lunch in Diffusion U-Net [Si+, CVPR2024], URL: https://arxiv.org/abs
 This paper presents a method to improve the generation performance of Diffusion Models with very simple modifications, without requiring additional training or parameters.
 
 <div style="width: 100%; text-align: center; margin:auto;">
-    <img style="width:100%" src="./readme_teaser.jpg">
+    <img style="width:100%" src="./freeu_fig.jpg">
 </div>
 
 This paper begins with an analysis. It investigates the main contributions of the U-Net architecture to the denoising process and identifies that while its main backbone contributes primarily to denoising, its skip connections mainly introduce high-frequency features to the decoder module, causing the network to overlook the semantics of the backbone. Based on this finding, they propose a simple yet effective method called "FreeU."
