@@ -13,6 +13,10 @@ This paper presents a method to improve the generation performance of Diffusion 
 
 This paper begins with an analysis. It investigates the main contributions of the U-Net architecture to the denoising process and identifies that while its main backbone contributes primarily to denoising, its skip connections mainly introduce high-frequency features to the decoder module, causing the network to overlook the semantics of the backbone. Based on this finding, they propose a simple yet effective method called "FreeU."
 
+
+<div style="width: 100%; text-align: center; margin:auto;">
+    <img style="width:100%" src="./freeu_method.png">
+</div>
 FreeU strategically reweights the contributions from the U-Net's skip connections and backbone feature maps, leveraging the strengths of both components of the U-Net architecture. All that is required is to adjust two scaling factors during inference. FreeU can be easily integrated into existing diffusion models, such as Stable Diffusion, DreamBooth, ModelScope, Rerender, and ReVersion.
 
 ## Why this paper is important (what the technical core is, why the paper is accepted)
