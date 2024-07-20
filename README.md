@@ -1,7 +1,7 @@
 # FreeU: Free Lunch in Diffusion U-Net
 This repository is the final assignment for the course "映像メディア学" one of the classes in the Graduate School of Information Science and Technology at the University of Tokyo. Please note that this is not the official implementation of FreeU.
 
-48-247414 Atsuyuki Miyai (宮井　淳行)
+48-247414 Atsuyuki Miyai (宮井淳行)
 
 ## Paper 
 FreeU: Free Lunch in Diffusion U-Net [Si+, CVPR2024], URL: https://arxiv.org/abs/2309.11497
