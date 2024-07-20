@@ -34,5 +34,15 @@ Secondly, the high scalability due to the simplicity of the method. The fact tha
 
 
 ### What you have implemented
+I implemented the FreeU code mainly according to the hyperparameters described in the paper.
+
+I put my code in "FreeU_implement.ipynb". 
 
 
+#### Results
+
+<div style="width: 100%; text-align: center; margin:auto;">
+    <img style="width:100%" src="./freeu_results.png">
+</div>
+
+We tried to output several images, but found it difficult to evaluate them fairly because of the considerable variation in the generated images. We felt that evaluation of the generated images was a common difficulty in the field and a challenge for the community.
