@@ -1,4 +1,4 @@
-# FreeU: Free Lunch in Diffusion U-Net
+# FreeU: Free Lunch in Diffusion U-Net (CVPR2024, Non-official)
 This repository is the final assignment for the course "映像メディア学" one of the classes in the Graduate School of Information Science and Technology at the University of Tokyo. Please note that this is not the official implementation of FreeU.
 
 48-247414 Atsuyuki Miyai (宮井淳行)
